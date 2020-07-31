@@ -77,7 +77,7 @@ def predict_image_from_bytes(bytes):
 def form(request):
         return HTMLResponse(
             """
-            <h1> Greenr </h1>
+            <h1> Fridays for Future - Toy example </h1>
             <p> Is your picture of a dandelion or grass? </p>
             <form action="/upload" method = "post" enctype = "multipart/form-data">
                 <u> Select picture to upload: </u> <br> <p>
